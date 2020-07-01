@@ -21,3 +21,4 @@ config.vm.define "db" do |db|
   end
 end
 # file sets up mongodb and app
+# updates should merge to master through jenkins
