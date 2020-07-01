@@ -22,5 +22,15 @@ sudo apt-get install nodejs -y
 sudo npm install pm2 -g
 
 
-echo 'export DB_HOST=mongodb://192.168.10.150:27017/posts' >> ~/.bashrc
+echo 'export DB_HOST=mongodb://192.168.10.200:27017/posts' >> ~/.bashrc
+
+cd /home/ubuntu/app
+
+npm install 
+
+cd /home/ubuntu/app/seeds
+
+node seed.js
+
+
 
