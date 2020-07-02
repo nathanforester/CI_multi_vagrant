@@ -28,9 +28,7 @@ cd /home/ubuntu/app
 
 npm install 
 
-cd /home/ubuntu/app/seeds
 
-node seed.js
 
 
 
