@@ -1,3 +1,13 @@
+# Repo Fully Automated
+
+### Jenkins Interface
+
+- A pipeline has been created through Jenkins and associated web hooks to this repo
+- Once any changes to the code are made, it is committed and pushed to the development branch
+- Jenkins reads the code and this triggers a new build
+- Once the vm is successfully built, a trigger is set on Jenkins for the changes to the development branch to be merged with the master branch
+- The integrated machine can now be tested for use
+
 # Using your virtual machine
 
 ### Creating the vm
